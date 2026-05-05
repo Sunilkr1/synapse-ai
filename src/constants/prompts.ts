@@ -1,0 +1,58 @@
+import { Prompt } from '../types';
+
+export const BUILT_IN_PROMPTS: Prompt[] = [
+  {
+    id: 'p1',
+    title: 'Explain Like I\'m 5',
+    content: 'Explain [TOPIC] to me as if I were 5 years old. Use simple words, a fun analogy, and make it easy to remember.',
+    category: 'Learning',
+    tags: ['education', 'simple'],
+    isFavorite: false,
+    createdAt: Date.now(),
+  },
+  {
+    id: 'p2',
+    title: 'Code Review',
+    content: 'Please review the following code for bugs, performance issues, and best practices:\n\n```\n[PASTE CODE HERE]\n```',
+    category: 'Development',
+    tags: ['code', 'review'],
+    isFavorite: false,
+    createdAt: Date.now(),
+  },
+  {
+    id: 'p3',
+    title: 'Write a LinkedIn Post',
+    content: 'Write a compelling LinkedIn post about [TOPIC]. Make it engaging, professional, include a hook, and end with a question to boost engagement.',
+    category: 'Writing',
+    tags: ['social', 'professional'],
+    isFavorite: false,
+    createdAt: Date.now(),
+  },
+  {
+    id: 'p4',
+    title: 'Pros and Cons',
+    content: 'Give me a balanced, detailed pros and cons list for [TOPIC]. Include at least 5 points on each side.',
+    category: 'Analysis',
+    tags: ['analysis', 'decision'],
+    isFavorite: false,
+    createdAt: Date.now(),
+  },
+  {
+    id: 'p5',
+    title: 'Summarize This',
+    content: 'Summarize the following text in 3-5 bullet points, focusing on the most important takeaways:\n\n[PASTE TEXT HERE]',
+    category: 'Productivity',
+    tags: ['summary', 'notes'],
+    isFavorite: false,
+    createdAt: Date.now(),
+  },
+  {
+    id: 'p6',
+    title: 'Fix My Bug',
+    content: 'I have a bug in my [LANGUAGE] code. Here is the code and the error:\n\nCode:\n```\n[CODE]\n```\n\nError: [ERROR MESSAGE]\n\nPlease find the bug and explain the fix.',
+    category: 'Development',
+    tags: ['debug', 'code'],
+    isFavorite: false,
+    createdAt: Date.now(),
+  },
+];

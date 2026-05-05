@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "Synapse AI",
+    "slug": "synapse-ai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/master-logo.png",
+    "scheme": "synapse",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": false,
+    "splash": {
+      "image": "./assets/master-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.synapseai.app"
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "package": "com.synapseai.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/master-logo.png",
+        "backgroundColor": "#000000"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      "expo-font",
+      "expo-notifications"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "d7ffdf77-bfb2-4e5e-bd06-6492331b1777"
+      }
+    }
+  }
+}
