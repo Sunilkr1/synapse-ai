@@ -11,6 +11,40 @@
 
 ---
 
+## 📲 Download & Try Now
+[**Download Latest Synapse AI APK**](https://github.com/Sunilkr1/synapse-ai/releases)
+
+---
+
+## ✨ App Screenshots
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="./assets/screenshots/ss1.png" width="200" /></td>
+      <td><img src="./assets/screenshots/ss2.png" width="200" /></td>
+      <td><img src="./assets/screenshots/ss3.png" width="200" /></td>
+    </tr>
+    <tr>
+      <td><img src="./assets/screenshots/ss4.png" width="200" /></td>
+      <td><img src="./assets/screenshots/ss5.png" width="200" /></td>
+      <td><img src="./assets/screenshots/ss6.png" width="200" /></td>
+    </tr>
+    <tr>
+      <td><img src="./assets/screenshots/ss7.png" width="200" /></td>
+      <td><img src="./assets/screenshots/ss8.png" width="200" /></td>
+      <td><img src="./assets/screenshots/ss9.png" width="200" /></td>
+    </tr>
+    <tr>
+      <td><img src="./assets/screenshots/ss10.png" width="200" /></td>
+      <td><img src="./assets/screenshots/ss11.png" width="200" /></td>
+      <td><img src="./assets/screenshots/ss12.png" width="200" /></td>
+    </tr>
+  </table>
+  <p><i>(Screenshots of Chat, Comparison Mode, Personas, and Settings)</i></p>
+</div>
+
+---
+
 ## 🚀 About Synapse AI
 Synapse AI Hub is a premium, feature-rich mobile application designed to bring the world's most powerful AI models into one unified experience. Built with **React Native** and **Expo**, it offers a seamless interface for chatting, comparing, and managing AI interactions.
 
